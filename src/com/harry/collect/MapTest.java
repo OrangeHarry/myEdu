@@ -1,6 +1,9 @@
-package com.harry.collect;
+ package com.harry.collect;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 
 public class MapTest {
 	public static void main(String[] args) {
