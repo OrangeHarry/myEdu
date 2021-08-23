@@ -21,6 +21,7 @@ public class BookFieldStorage {
 			int selectNo = Integer.parseInt(sc.nextLine());
 			switch (selectNo) {
 			case 1:
+				System.out.println("*************************************************");
 				System.out.println("이 곳은 당신이 감명깊게 읽었던 책들을 저장하는 페이지 입니다.");
 				System.out.println("내 인생 최고의 책을 이 곳 한켠에 기록해주세요");
 				System.out.println("이것 또한 하나의 귀중한 기록이 될거에요!!");
@@ -73,7 +74,7 @@ public class BookFieldStorage {
 			System.out.print("책 작가 :");
 			bf.setBookWirter(sc.nextLine());
 
-			System.out.println("책 가격 :");
+			System.out.print("책 가격 :");
 			bf.setPrice(Integer.parseInt(sc.nextLine()));
 
 			list.add(bf);
